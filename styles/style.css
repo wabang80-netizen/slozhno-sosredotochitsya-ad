@@ -146,7 +146,7 @@ body {
     margin-bottom: 20px;
 }
 
-.content-section__heading{
+.content-section__heading {
     background-color: var(--color-focus);
     font-weight: 700;
     font-size: var(--size-main-text);
@@ -156,7 +156,7 @@ body {
     padding: 0;
 }
 
-.no_bold{
+.no_bold {
     font-weight: 400;
 }
 
@@ -321,6 +321,7 @@ body {
             "img3 img5 img5"
             "img3 img5 img5";
         gap: 20px;
+        overflow: clip;
     }
 
     .gallery__image {
@@ -329,6 +330,7 @@ body {
         object-fit: cover;
         object-position: center;
         margin: 0;
+        overflow: clip;
     }
 
     .gallery__image:nth-child(1) {
@@ -407,4 +409,8 @@ body {
     .footer__title {
         font-size: 157px;
     }
+}
+
+.page {
+    background-attachment: fixed
 }
