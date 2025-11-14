@@ -211,7 +211,8 @@ body {
 }
 
 .gallery-section {
-    margin: 50px 10px 40px 0px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .gallery-section__title {
