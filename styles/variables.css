@@ -1,4 +1,11 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+    --size-main-text: 18px;
+    --color-main-background: #000028;
+    --color-main-text: #F1B2CE;
+    --color-h1-text: #DB00FF;
+    --color-h2-text: #FF0070;
+    --color-subtitle-text: #000028;
+    --color-highlite: #FF0070;
+    --color-focus: #FF0070;
+    --color-shadow: #FF0070;
+}
