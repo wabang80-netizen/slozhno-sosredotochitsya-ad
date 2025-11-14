@@ -11,7 +11,7 @@
 }
 
 .theme-dark .header {
-    background-image: url("../images/cover-image-dark.png");
+    background-color: var(--color-main-background);
 }
 
 .theme-dark .rec-label {
@@ -37,6 +37,6 @@
     }
 
     :root:not(.theme-light) .header {
-        background-image: url("../images/cover-image-dark.png");
+        background-color: var(--color-main-background);
     }
 }
